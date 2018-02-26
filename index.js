@@ -1,7 +1,6 @@
 const irc = require("irc");
-const express = require("express");
+const app = require("express")();
 
-const app = express();
 const client = new irc.Client("chat.freenode.net", "kuken", {
   channels: ["#javascript", "#python", "#node.js", "#linux"],
 });
