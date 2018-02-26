@@ -20,4 +20,5 @@ io.on("connection", socket => {
 
 app.use(cors({ origin: "http://localhost:8080", credentials: true }));
 app.get("/", (req, res) => res.json(messages));
-app.listen(3000, () => console.log("Listening on port 3000!"));
+
+http.listen(3000, () => console.log("Listening on port 3000!"));
