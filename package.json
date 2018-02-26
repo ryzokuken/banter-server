@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:ryzokuken/banter-server.git",
   "author": "Ujjwal Sharma <usharma1998@gmail.com> (ryzokuken.github.io)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "irc": "^0.5.2"
+  }
 }
