@@ -10,6 +10,7 @@
   "author": "Ujjwal Sharma <usharma1998@gmail.com> (ryzokuken.github.io)",
   "license": "MIT",
   "dependencies": {
+    "express": "^4.16.2",
     "irc": "^0.5.2"
   }
 }
