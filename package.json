@@ -14,5 +14,8 @@
     "express": "^4.16.2",
     "irc": "^0.5.2",
     "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.15.1"
   }
 }
