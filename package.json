@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Node server application for Banter (IRC over HTTPS)",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": "git@github.com:ryzokuken/banter-server.git",
   "author": "Ujjwal Sharma <usharma1998@gmail.com> (ryzokuken.github.io)",
   "license": "MIT",
