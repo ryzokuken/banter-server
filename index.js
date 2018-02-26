@@ -1,6 +1,7 @@
 const irc = require("irc");
 
 const app = require("express")();
+const cors = require("cors");
 const http = require("http").Server(app);
 const io = require("socket.io")(http);
 
@@ -17,5 +18,6 @@ io.on("connection", socket => {
   console.log("Someone connected!");
 });
 
+app.use(cors({ origin: "http://localhost:8080", credentials: true }));
 app.get("/", (req, res) => res.json(messages));
 app.listen(3000, () => console.log("Listening on port 3000!"));
